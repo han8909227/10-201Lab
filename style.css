@@ -1,13 +1,28 @@
 
 nav ul{
   float:right;
-  margin-right: 200px;
 }
 
 
 nav h2{
   margin-bottom: -10px;
+  font-family: 'Lobster', cursive;
 }
+
+nav p{
+  font-family: 'Yellowtail';
+  color:grey;
+  font-size: 30%;
+
+}
+
+main,footer,header{
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 nav li{
@@ -41,11 +56,12 @@ main h1{
 }
 
 main p{
-  width: 700px;
+  width: 900px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px
+  text-indent: 10px;
+
 
 }
 
@@ -57,7 +73,7 @@ main input{
 main div{
   position:relative;
   text-align: center;
-  background-image: url("http://placehold.it/700x250");
+  background-image: url("https://github.com/codefellows/seattle-201d24/blob/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png?raw=true");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -73,15 +89,22 @@ footer h2{
   margin-top: 10px;
 }
 
+footer button{
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  text-shadow: 3px black;
+}
+
 
 
 .ingred{
   display: inline-block;
 }
 
-footer hr{
 
-}
+
 
 header hr{
   margin-top:0px;
@@ -92,12 +115,17 @@ header hr{
 
 .descrip{
   margin-top:-5px;
+}
+
+
+.copyright{
+  text-align: center;
 
 }
 
-.cho{
+.smllogo{
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-
+  margin-top: -23px;
 }
